@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COACH CARES</title>
+            <link rel="stylesheet" href="stylesign.css">
+</head>
+<body>
+    <header>
+        <span style="font-weight:bold"><br>SIGN UP</span><br>
+    </header>
+    <div class="container">
+        <form id ="form" class="form">
+            <div class="form-control">
+                <label for="username"><br><br> USERNAME &nbsp;</label>
+                <input type="text" name="" id="username" placeholder="enter username"><br><br><br>
+            </div>
+            <div class="form-control">
+                <label for="email">EMAIL &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</label>
+                <input type="text" name="" id="email" placeholder="enter email"><br><br><br>
+            </div>
+            <div class="form-control">
+                <label for="password">PASSWORD &nbsp;</label>
+                <input type="text" name="" id="password" placeholder="enter password"><br><br><br>
+            </div>
+            <div class="form-control">
+                <label for="password">CONFIRM PASSWORD &nbsp; &nbsp;</label>
+                <input type="text" name="" id="Co-password" placeholder="enter confirm password"><br><br><br>
+            </div>
+            <button id="submitButton" type="button">NEXT</button><br><br>
+        </form>
+    </div>
+    <footer></footer>
+    <script src="scriptRegister.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script> <!-- เพิ่ม  Library -->
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script><!-- เพิ่ม  Library -->
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script> <!-- เพิ่ม  Library -->
+
+    <script src="firebaseConfig.js"></script>   <!-- เปิดใช้งานไฟล์ firebaseConfig.js -->
+    <script src="authScript.js"></script>   <!-- เปิดใช้งานไฟล์ authScript.js -->
+</body>
+</html>
