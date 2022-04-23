@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALENDAR</title>
+            <link rel="stylesheet" href="Calendarstyle.css">
+</head>
+<body>
+  <header>
+  </header>
+  <div class="main-container">
+    <br><br><h2 style="font-weight:bold">STATICS</h2>
+  </div>
+  <form>
+    <span>
+        <label for="day">Day: &nbsp;</label>
+        <select name="day" id="day"></select>
+    </span>
+    <span><br>
+        <label for="month">Month: &nbsp;</label>
+        <select name="month" id="month"></select>
+    </span>
+    <span><br>
+        <label for="year">Year: &nbsp;</label>
+        <select name="year" id="year">Year:</select>
+    </span><br><br>
+  </form>
+ 
+  <div class="Submit-button"> 
+    <button type="text" id="ButId_Submit">All</button><br><br>
+  </div>
+    <div class="Submit-button"> 
+      <button type="text" id="ButId_Submit">Submit</button>
+    </div>
+
+
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script> <!-- เพิ่ม  Library -->
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script><!-- เพิ่ม  Library -->
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script> <!-- เพิ่ม  Library -->
+
+     <script src="firebaseConfig.js"></script>  <!-- เปิดใช้งานไฟล์ FirebaseConfig.js -->
+    <script src="Calendar.js"></script>   <!-- เปิดใช้งานไฟล์ Lab1_Auth_script.js -->
+    <script src="Scriptymd.js"></script>
+
+
+  </body>
+</html>
