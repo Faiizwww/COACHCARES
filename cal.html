@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YOUR HEALTH</title>
+            <link rel="stylesheet" href="calstyle.css">
+</head>
+<body>
+    <header>
+        <span style="font-weight:bold"><br>YOUR HEALTH</span><br>
+    </header>
+    <div class="container">
+        <form id ="form" class="form">
+            <div class="form-control">
+                <label for="activities"><br></label>
+                <input type="text" name="" id="activities" placeholder=".....ACTIVITIES....."> &nbsp;<br><br><br>
+            </div>
+            <div class="form-control">
+                <label for="calories"> &nbsp; &nbsp; &nbsp;</label>
+                <input type="text" name="" id="calories" placeholder=".....CALORIES....."> &nbsp; Kcal.<br><br><br>
+            </div>
+            <div class="form-control">
+                <label for="heart"> &nbsp; &nbsp; &nbsp;</label>
+                <input type="text" name="" id="heart" placeholder=".....HEART RATE.....">&nbsp; bpm.<br><br><br>
+            </div>
+            <div class="form-control">
+                <label for="water"> &nbsp; &nbsp;</label>
+                <input type="text" name="" id="water" placeholder=".....DRINKING WATER.....">&nbsp; L.<br><br><br>
+            </div>
+            <div class="form-control">
+                <label for="sleep"> &nbsp; &nbsp;</label>
+                <input type="text" name="" id="sleep" placeholder=".....SLEEP.....">&nbsp; Hr.<br><br><br>
+            </div>
+            <button onclick= "" id="submitButton" type="button">NEXT</button><br><br>
+        </form>
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script> <!-- เพิ่ม  Library -->
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script><!-- เพิ่ม  Library -->
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script> <!-- เพิ่ม  Library -->
+
+    <script src="firebaseConfig.js"></script>   <!-- เปิดใช้งานไฟล์ firebaseConfig.js -->
+</body>
+</html>
